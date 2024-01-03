@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Override any settings from the "parent" configuration
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
 }

@@ -18,10 +18,29 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.image-container {
+  --rotation: 0deg;
+  transform: rotate(var(--rotation));
+  transform-origin: center;
+}
+
+@font-face {
+  font-family: 'avenida';
+  src: url('/avenida.woff2') format('woff2');
+  font-weight: 400;
+  /* Normal */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fonseca';
+  src: url('/fonseca.woff') format('woff');
+  font-weight: 400;
+  /* Normal */
+  font-style: normal;
 }
