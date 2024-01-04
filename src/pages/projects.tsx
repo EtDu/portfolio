@@ -1,31 +1,24 @@
 import Link from 'next/link';
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
+import 'react-multi-carousel/lib/styles.css';
 import Image from 'next/image';
+import projectMetadata from "../app/projectMetadata.json"
 
 const Home = () => {
 
   return (
-    <div className="flex min-h-screen bg-primary-1">
-      <div className="relative flex-grow">
-        <div className="flex justify-center items-center h-full max-w-md mx-auto">
-          <Image src="/ethgobblers.webp" alt="Eth Gobblers" objectFit="contain" width={200} height={200} />
-          <Image src="/mev_logo.png" alt="MEV" layout="responsive" width={200} height={200} />
-          <Image src="/love.webp" alt="Love" width={200} height={200} />
-          <Image src="/goopen.webp" alt="Goopen" width={200} height={200} />
-          <Image src="/n5.webp" alt="N5" width={200} height={200} />
-          <Image src="/dreamland.webp" alt="Dreamland" width={200} height={200} />
-          <Image src="/md.webp" alt="Myth Division" width={200} height={200} />
-          <Image src="/pepe.webp" alt="Pepe" width={200} height={200} />
-          <Image src="/alien.webp" alt="Alien" width={200} height={200} />
-          <Image src="/333.webp" alt="333" width={200} height={200} />
-          <Image src="/firstthread.webp" alt="First Thread" width={200} height={200} />
-          <Image src="/eighties.webp" alt="Eighties Babies" width={200} height={200} />
-          <Image src="/gan.webp" alt="Gan Fish" width={200} height={200} />
-          <Image src="/receipt.webp" alt="Omakasea Receipt" width={200} height={200} />
-          <Image src="/cacti.webp" alt="Cacti" width={200} height={200} />
-          <Image src="/bandel.webp" alt="Bandel" width={200} height={200} />
-          <Image src="/unicorn.webp" alt="Unicorn" width={200} height={200} />
-        </div>
+    <div className="flex bg-white h-full bg-opacity-80">
+      <div className="grid grid-cols-4 p-4 w-full h-screen overflow-y-auto">
+        {projectMetadata.map((image, index) => (
+          <Link href={`/projects/${image.route}`} key={index}>
+            <div key={index} className="flex flex-col items-center justify-center h-64">
+              <div className="relative w-full h-3/4">
+                <Image src={image.src} alt={image.alt} layout="fill" objectFit="contain" className="absolute" />
+              </div>
+              <p className="text-center font-fonseca mt-2">{image.alt}</p>
+            </div>
+          </Link>
+        ))}
       </div>
     </div>
   );

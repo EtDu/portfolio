@@ -30,8 +30,6 @@ const Navbar = () => {
         <div className="flex flex-col space-y-8">
           <Link href="/"><span className="cursor-pointer font-fonseca text-3xl text-primary-3 hover:underline">Home</span></Link>
           <Link href="/projects"><span className="cursor-pointer font-fonseca text-3xl text-primary-5 hover:underline">Projects</span></Link>
-          <Link href="/blog"><span className="cursor-pointer font-fonseca text-3xl text-primary-8 hover:underline">Blog</span></Link>
-
         </div>
       </div>
 

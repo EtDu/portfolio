@@ -1,0 +1,201 @@
+[
+  {
+    "src": "/ethgobblers.webp",
+    "alt": "Eth Gobblers",
+    "url": "ethgobblers.com",
+    "route": "ethgobblers",
+    "description": "ETH Gobblers is a tamagotchi style game on the Ethereum blockchain that leverages NFTs. Buy a Gooey NFT on the open market. Feed Gooeys with ETH to keep them alive, otherwise their health decreases and they can die. Unlock GobDrops, special equippable and consumable NFTs to elevate your Gooey's stats.",
+    "stack": "NodeJS | MongoDB | ReactJS | NextJS | Ethereum | Solidity | Docker | HAProxy",
+    "tech": [
+      "Features a fault-tolerant web socket powered event listener that captures on-chain events and updates metadata in MongoDB",
+      "Hosts NFT metadata and exposes API for 3rd party NFT marketplace to access it",
+      "Extensive API to handle game operations and database updates",
+      "CDN to efficiently serve 500+ GB of GIF assets",
+      "Custom Web3 wallet signature based authentication",
+      "Cryptographic signatures to permission smart contract access",
+      "ERC721 & ERC1155 NFT standards"
+    ]
+  },
+  {
+    "src": "/mev_logo.png",
+    "alt": "Megalith TV",
+    "url": "mglth.tv",
+    "route": "megalith",
+    "description": "Megalith is a decentralized streaming application. Purchase an NFT which corresponds to a fixed amount of minutes. With those minutes, upload video content to a collaborative 2 week long stream that runs on a loop. Megalith is the embodiment of censorship resistance and distributed entertainment.",
+    "stack": "NodeJS | MongoDB | ReactJS | NextJS | Ethereum | Solidity | IPFS | FFMPEG | Docker | HAProxy",
+    "tech": [
+      "Dynamic file uploader API to address large file uploads",
+      "RTMP server video streaming",
+      "Full video upload/transcode/broadcast pipeline",
+      "ERC721 NFT standard"
+    ]
+  },
+  {
+    "src": "/love.webp",
+    "alt": "Love",
+    "url": "love.game",
+    "route": "love",
+    "description": "love.game is above all, an artistic expression of nostalgia for the people of the internet. Practically speaking, it's an ERC-20 token on the Ethereum blockchain. A certain amount of $LOVE tokens were claimable for free on launch day. Claim tokens then pair them with ETH in a Uniswap V2 liquidity pool to receive LP tokens and deposit those into farms to gain interest. Features HEARTBREAK, a real time game of chance and skill: Deposit $LOVE tokens, play a desired amount then press the button before the heart breaks to win!",
+    "stack": "NextJS | ReactJS | MongoDB | Ethereum | Solidity | PostgreSQL | Redis",
+    "tech": [
+      "Merkle proofs produced in advance to calculate token claims for 100K + wallet addresses",
+      "Dynamically add new farms and adjust yield percentages",
+      "Heartbreak game leveraging web sockets and caching for real time updates and database operation optimization",
+      "Web3 wallet signature based deposit and withdrawal mechanisms for Heartbreak game, extensive security measures to prevent unauthorized operations"
+    ]
+  },
+  {
+    "src": "/goopen.webp",
+    "alt": "Goopen Editions",
+    "url": "goopen.ethgobblers.com",
+    "route": "goopen",
+    "description": "Goopen Editions was created to honor talented artists within the Omakasea & ETH Gobblers community. Create a profile, upload art, then vote on all submitted art by swiping right or left. Art with the highest amount of votes is featured on the front page and mintable as an NFT. All proceeds go directly to the artist.",
+    "stack": "NodeJS | ReactJS | MongoDB | Ethereum | Solidity",
+    "tech": [
+      "API to accomodate creating user profiles, tallying votes, processing uploads",
+      "ERC721 NFT standard"
+    ]
+  },
+  {
+    "src": "/notnintendo.webp",
+    "alt": "Not Nintendo",
+    "url": "notnintendo.com",
+    "route": "notnintendo",
+    "description": "Not Nintendo is, well, not Nintendo by any means. There isn't an NFT project called PokeGAN either, where the entire PokeDEX was used to train a Generative Adversarial Network (GAN) to produce novel Pokemon NFTs.",
+    "stack": "NextJS | ReactJS | RPG Maker | Ethereum | Solidity",
+    "tech": [
+      "Mint NFTs from within a browser based RPG game, inspired by Pokemon",
+      "ERC721 NFT standard"
+    ]
+  },
+  {
+    "src": "/n5.webp",
+    "alt": "N5",
+    "url": "n.style",
+    "route": "n5",
+    "description": "N5 or 'N Five Star' is a light concept site created to showcase decks and material to potential investors.",
+    "stack": "NextJS | ReactJS",
+    "tech": [
+      "Nothing special going on here, just cool design"
+    ]
+  },
+  {
+    "src": "/dreamland.webp",
+    "alt": "Dreamland",
+    "url": "dreamland.id",
+    "route": "dreamland",
+    "description": "Dreamland is the pitch/concept for the construction of a palace on beachfront property in Bali.",
+    "stack": "NextJS | ReactJS | ThreeJS",
+    "tech": [
+      "Detailed 3D palace asset rendered in the browser from a Blender export"
+    ]
+  },
+  {
+    "src": "/md.webp",
+    "alt": "Myth Division",
+    "url": "mythdivision.com",
+    "route": "mythdivision",
+    "description": "Myth Division was a project built for a client. Get on the project whitelist by posting on Twitter. Purchase a Myth Division Agent ID NFT to gain access to the Myth Division universe. Access the Apothecary & Armory to equip and consume items for Waifu Warriors NFTs. Access the comic book library to read about Myth Division Lore.",
+    "stack": "NodeJS | MongoDB | ReactJS | NextJS | Selenium | Ethereum | Solidity | Docker | HAProxy",
+    "tech": [
+      "Mechanism to verify Twitter posts with headless chrome to authorize NFT mints",
+      "Hosts NFT metadata and exposes API for 3rd party NFT marketplace to access it",
+      "Extensive API to handle game operations and database updates",
+      "Custom Web3 wallet signature based authentication",
+      "ERC721 & ERC1155 NFT standards"
+    ]
+  },
+  {
+    "src": "/pepe.webp",
+    "alt": "Pepe Liberation Army",
+    "url": "https://opensea.io/collection/pepeliberationarmy-v2",
+    "route": "pepe",
+    "description": "Pepe Liberation Army was an NFT project created to showcase the power of Decentralized Autonomous Organizations (DAOs) powered by NFTs.",
+    "stack": "Ethereum | Solidity",
+    "tech": [
+      "Smart contract that enables assets to be controlled by a quorum of NFT holders",
+      "ERC721 NFT standard"
+    ]
+  },
+  {
+    "src": "/alien.webp",
+    "alt": "Autistic Alien Invaders",
+    "url": "https://opensea.io/collection/autistic-alien-invaders",
+    "route": "aliens",
+    "description": "Autistic Alien Invaders is a basic NFT project created to bring awareness to Autism",
+    "stack": "Ethereum | Solidity",
+    "tech": [
+      "ERC721 NFT standard"
+    ]
+  },
+  {
+    "src": "/firstthread.webp",
+    "alt": "First Thread",
+    "url": "firstthread.shop",
+    "route": "firstthread",
+    "description": "NFT based e-commerce platform. Identical to a traditional e-commerce experience with a twist. At checkout, purchase the item as an NFT. Trade it on the open market or claim the physical item and have it shipped to your door.",
+    "stack": "NodeJS | MongoDB | ReactJS | NextJS | Ethereum | Solidity | Docker | HAProxy",
+    "tech": [
+      "Purchase NFTs with any enabled ERC-20 token or a credit card",
+      "Interoperable with any ERC-721 & ERC1155 NFT contracts",
+      "Fully integrated shipping and logistics",
+      "Admin panel for product management"
+    ]
+  },
+  {
+    "src": "/eighties.webp",
+    "alt": "Eighties Babies",
+    "url": "https://opensea.io/collection/eighties-babies-v2",
+    "route": "eightiesbabies",
+    "description": "NFT collection of to recognize kids that grew up in the 80's",
+    "stack": "Ethereum | Solidity",
+    "tech": [
+      "ERC721 NFT standard"
+    ]
+  },
+  {
+    "src": "/gan.webp",
+    "alt": "Gan Fish",
+    "url": "",
+    "route": "ganfish",
+    "description": "Our amazing artist Dudette hand drew a collection of fish every day for 150 days. We trained the fish on an AI model to produce new species of fish never seen before. Then we sold them as NFTs on the Chia blockchain.",
+    "stack": "NextJS | Chia",
+    "tech": [
+      "Custom queueing system to mint Chia NFTs based on pre-made offer files"
+    ]
+  },
+  {
+    "src": "/receipt.webp",
+    "alt": "NFT Generator",
+    "url": "omakasea.com",
+    "route": "nftgenerator",
+    "description": "The very first project of Omakasea. Bring your layered art and produce an entire generative NFT collection, deployed to the blockchain and hosted on IPFS.",
+    "stack": "NodeJS | MongoDB | ReactJS | IPFS | Ethereum | Solidity | Docker | HAProxy",
+    "tech": [
+      "Complete NFT asset generation pipeline leveraging Node Sharp to layer still images and gifs",
+      "Innovative web3 wallet signature based whitelist mechanism to mint NFTs, costs 0 gas to implement"
+    ]
+  },
+  {
+    "src": "/cacti.webp",
+    "url": "",
+    "alt": "Cacti House",
+    "route": "cacti",
+    "description": "Another collection with artistic direction from Dudette. Cacti House was built to showcase the possibilities of NFTs on the Chia Blockchain.",
+    "stack": "NextJS | Chia",
+    "tech": [
+      "Custom queueing system to mint Chia NFTs based on pre-made offer files"
+    ]
+  },
+  {
+    "src": "/unicorn.webp",
+    "alt": "Unicorn",
+    "url": "",
+    "route": "unicorn",
+    "description": "Are you the Unicorn? Innovative NFT concept where anyone can pay to steal the Unicorn NFT from someone else and tweet about it, directly from the interface. The price algorithmically increases everytime the Unicorn is stolen.",
+    "stack": "ReactJS | Ethereum | Solidity",
+    "tech": [
+      "Hacked ERC-721 NFT standard where the NFT can be transferred out of people's wallets"
+    ]
+  }
+]

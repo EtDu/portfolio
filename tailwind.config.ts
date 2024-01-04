@@ -12,6 +12,7 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          'gradient-border': 'linear-gradient(45deg, #f5d478, #050304, #718ecd, #bab2c6, #bc6d51, #f3d166, #5c4530, #4164af, #d8c8c5, #8ea7d4, #d4ab73, #547bc7, #164c9c, #9f748c, #b1bb92)'  
       },
       fontFamily: {
         'avenida': ['avenida', 'sans-serif'],
@@ -33,6 +34,7 @@ const config: Config = {
         'primary-13': '#164c9c',
         'primary-14': '#9f748c',
         'primary-15': '#b1bb92',
+        'grad': 'linear-gradient(45deg, #f5d478, #050304, #718ecd, #bab2c6, #bc6d51, #f3d166, #5c4530, #4164af, #d8c8c5, #8ea7d4, #d4ab73, #547bc7, #164c9c, #9f748c, #b1bb92)'
       }
     },
   },

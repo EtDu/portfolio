@@ -19,7 +19,7 @@ const Home = () => {
             </p>
             <p className="text-lg font-fonseca text-center text-primary-3 font-bold py-5">
               In my seven years as a Full Stack Software Engineer, I've learned that the secret
-              sauce to successful project launches isn't just mastering JavaScript.
+              sauce to successful project launches isn't just about writing good code.
             </p>
             <p className="text-lg font-fonseca text-center text-primary-4 font-bold py-5">
               It's about creating a story – a narrative where every line of code intertwines with user experience
