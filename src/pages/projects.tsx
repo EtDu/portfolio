@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="flex bg-white h-full bg-opacity-80">
       <div className="grid grid-cols-4 p-4 w-full h-screen overflow-y-auto">
-        {projectMetadata.map((image, index) => (
+        {Object.values(projectMetadata).map((image, index) => (
           <Link href={`/projects/${image.route}`} key={index}>
             <div key={index} className="flex flex-col items-center justify-center h-64">
               <div className="relative w-full h-3/4">

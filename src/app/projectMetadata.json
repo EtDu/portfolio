@@ -1,5 +1,5 @@
-[
-  {
+{
+  "ethgobblers": {
     "src": "/ethgobblers.webp",
     "alt": "Eth Gobblers",
     "url": "ethgobblers.com",
@@ -16,7 +16,7 @@
       "ERC721 & ERC1155 NFT standards"
     ]
   },
-  {
+  "megalith": {
     "src": "/mev_logo.png",
     "alt": "Megalith TV",
     "url": "mglth.tv",
@@ -30,7 +30,7 @@
       "ERC721 NFT standard"
     ]
   },
-  {
+  "love": {
     "src": "/love.webp",
     "alt": "Love",
     "url": "love.game",
@@ -44,7 +44,7 @@
       "Web3 wallet signature based deposit and withdrawal mechanisms for Heartbreak game, extensive security measures to prevent unauthorized operations"
     ]
   },
-  {
+  "goopen": {
     "src": "/goopen.webp",
     "alt": "Goopen Editions",
     "url": "goopen.ethgobblers.com",
@@ -56,7 +56,7 @@
       "ERC721 NFT standard"
     ]
   },
-  {
+  "notnintendo": {
     "src": "/notnintendo.webp",
     "alt": "Not Nintendo",
     "url": "notnintendo.com",
@@ -68,7 +68,7 @@
       "ERC721 NFT standard"
     ]
   },
-  {
+  "n5": {
     "src": "/n5.webp",
     "alt": "N5",
     "url": "n.style",
@@ -79,7 +79,7 @@
       "Nothing special going on here, just cool design"
     ]
   },
-  {
+  "dreamland": {
     "src": "/dreamland.webp",
     "alt": "Dreamland",
     "url": "dreamland.id",
@@ -90,7 +90,7 @@
       "Detailed 3D palace asset rendered in the browser from a Blender export"
     ]
   },
-  {
+  "mythdivision": {
     "src": "/md.webp",
     "alt": "Myth Division",
     "url": "mythdivision.com",
@@ -105,7 +105,7 @@
       "ERC721 & ERC1155 NFT standards"
     ]
   },
-  {
+  "pepe": {
     "src": "/pepe.webp",
     "alt": "Pepe Liberation Army",
     "url": "https://opensea.io/collection/pepeliberationarmy-v2",
@@ -117,7 +117,7 @@
       "ERC721 NFT standard"
     ]
   },
-  {
+  "aliens": {
     "src": "/alien.webp",
     "alt": "Autistic Alien Invaders",
     "url": "https://opensea.io/collection/autistic-alien-invaders",
@@ -128,7 +128,7 @@
       "ERC721 NFT standard"
     ]
   },
-  {
+  "firstthread": {
     "src": "/firstthread.webp",
     "alt": "First Thread",
     "url": "firstthread.shop",
@@ -142,7 +142,7 @@
       "Admin panel for product management"
     ]
   },
-  {
+  "eightiesbabies": {
     "src": "/eighties.webp",
     "alt": "Eighties Babies",
     "url": "https://opensea.io/collection/eighties-babies-v2",
@@ -153,7 +153,7 @@
       "ERC721 NFT standard"
     ]
   },
-  {
+  "ganfish": {
     "src": "/gan.webp",
     "alt": "Gan Fish",
     "url": "",
@@ -164,7 +164,7 @@
       "Custom queueing system to mint Chia NFTs based on pre-made offer files"
     ]
   },
-  {
+  "nftgenerator": {
     "src": "/receipt.webp",
     "alt": "NFT Generator",
     "url": "omakasea.com",
@@ -176,7 +176,7 @@
       "Innovative web3 wallet signature based whitelist mechanism to mint NFTs, costs 0 gas to implement"
     ]
   },
-  {
+  "cacti": {
     "src": "/cacti.webp",
     "url": "",
     "alt": "Cacti House",
@@ -187,7 +187,7 @@
       "Custom queueing system to mint Chia NFTs based on pre-made offer files"
     ]
   },
-  {
+  "unicorn": {
     "src": "/unicorn.webp",
     "alt": "Unicorn",
     "url": "",
@@ -198,4 +198,4 @@
       "Hacked ERC-721 NFT standard where the NFT can be transferred out of people's wallets"
     ]
   }
-]
+}
