@@ -50,7 +50,7 @@ const ProjectPage = () => {
           </div>
         </div>
       )}
-      <div className='w-full bg-primary-10 p-4 bg-opacity-30 shadow-xl'>
+      <div className='w-full bg-primary-10 p-4 bg-opacity-20 shadow-xl'>
         <div className='w-2/3'>
           <section className='mb-6'>
             <h2 className="text-xl font-semibold font-roboto-bold">Description</h2>
