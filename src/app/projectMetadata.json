@@ -1,8 +1,42 @@
 {
   "ethgobblers": {
-    "src": "/ethgobblers.webp",
+    "src": "/ethgobblers/ethgobblers.webp",
+    "images": [
+      {
+        "path": "/ethgobblers/gooey-1.webp",
+        "alt": "Gooey 1"
+      },
+      {
+        "path": "/ethgobblers/gooey-2.webp",
+        "alt": "Gooey 2"
+      },
+      {
+        "path": "/ethgobblers/gooey-3.webp",
+        "alt": "Gooey 3"
+      },
+      {
+        "path": "/ethgobblers/gooey-4.webp",
+        "alt": "Gooey 4"
+      },
+      {
+        "path": "/ethgobblers/gooey-5.webp",
+        "alt": "Gooey 5"
+      },
+      {
+        "path": "/ethgobblers/screen-1.webp",
+        "alt": "Screenshot 1"
+      },
+      {
+        "path": "/ethgobblers/screen-2.webp",
+        "alt": "Screenshot 2"
+      },
+      {
+        "path": "/ethgobblers/screen-3.webp",
+        "alt": "Screenshot 3"
+      }
+    ],
     "alt": "Eth Gobblers",
-    "url": "ethgobblers.com",
+    "url": "https://ethgobblers.com/",
     "route": "ethgobblers",
     "description": "ETH Gobblers is a tamagotchi style game on the Ethereum blockchain that leverages NFTs. Buy a Gooey NFT on the open market. Feed Gooeys with ETH to keep them alive, otherwise their health decreases and they can die. Unlock GobDrops, special equippable and consumable NFTs to elevate your Gooey's stats.",
     "stack": "NodeJS | MongoDB | ReactJS | NextJS | Ethereum | Solidity | Docker | HAProxy",
@@ -17,7 +51,29 @@
     ]
   },
   "megalith": {
-    "src": "/mev_logo.png",
+    "src": "/mglth/mev_logo.png",
+    "images": [
+      {
+        "path": "/mglth/megalith-1.webp",
+        "alt": "Megalith 1"
+      },
+      {
+        "path": "/mglth/megalith-2.webp",
+        "alt": "Megalith 2"
+      },
+      {
+        "path": "/mglth/megalith-3.webp",
+        "alt": "Megalith 3"
+      },
+      {
+        "path": "/mglth/megalith-4.webp",
+        "alt": "Megalith 4"
+      },
+      {
+        "path": "/mglth/megalith-5.webp",
+        "alt": "Megalith 5"
+      }
+    ],
     "alt": "Megalith TV",
     "url": "mglth.tv",
     "route": "megalith",
@@ -27,11 +83,34 @@
       "Dynamic file uploader API to address large file uploads",
       "RTMP server video streaming",
       "Full video upload/transcode/broadcast pipeline",
+      "Broadcast stream directly from OpenSea",
       "ERC721 NFT standard"
     ]
   },
   "love": {
     "src": "/love.webp",
+    "images": [
+      {
+        "path": "/love/love-1.webp",
+        "alt": "Love 1"
+      },
+      {
+        "path": "/love/love-2.webp",
+        "alt": "Love 2"
+      },
+      {
+        "path": "/love/love-3.webp",
+        "alt": "Love 3"
+      },
+      {
+        "path": "/love/love-4.webp",
+        "alt": "Love 4"
+      },
+      {
+        "path": "/love/love-5.webp ",
+        "alt": "Love 5"
+      }
+    ],
     "alt": "Love",
     "url": "love.game",
     "route": "love",
@@ -46,6 +125,32 @@
   },
   "goopen": {
     "src": "/goopen.webp",
+    "images": [
+      {
+        "path": "/goopen/goopen-1.webp",
+        "alt": "Goopen 1"
+      },
+      {
+        "path": "/goopen/goopen-2.webp",
+        "alt": "Goopen 2"
+      },
+      {
+        "path": "/goopen/goopen-3.webp",
+        "alt": "Goopen 3"
+      },
+      {
+        "path": "/goopen/goopen-4.webp",
+        "alt": "Goopen 4"
+      },
+      {
+        "path": "/goopen/goopen-5.webp",
+        "alt": "Goopen 5"
+      },
+      {
+        "path": "/goopen/goopen-6.webp",
+        "alt": "Goopen 6"
+      }
+    ],
     "alt": "Goopen Editions",
     "url": "goopen.ethgobblers.com",
     "route": "goopen",
@@ -58,6 +163,44 @@
   },
   "notnintendo": {
     "src": "/notnintendo.webp",
+    "images": [
+      {
+        "path": "/notnintendo/poke-1.webp",
+        "alt": "NotNintendo 1"
+      },
+      {
+        "path": "/notnintendo/poke-2.webp",
+        "alt": "NotNintendo 2"
+      },
+      {
+        "path": "/notnintendo/poke-3.webp",
+        "alt": "NotNintendo 3"
+      },
+      {
+        "path": "/notnintendo/poke-4.webp",
+        "alt": "NotNintendo 4"
+      },
+      {
+        "path": "/notnintendo/poke-5.webp",
+        "alt": "NotNintendo 5"
+      },
+      {
+        "path": "/notnintendo/poke-6.webp",
+        "alt": "NotNintendo 6"
+      },
+      {
+        "path": "/notnintendo/poke-7.webp",
+        "alt": "NotNintendo 7"
+      },
+      {
+        "path": "/notnintendo/poke-8.webp",
+        "alt": "NotNintendo 8"
+      },
+      {
+        "path": "/notnintendo/poke-9.webp",
+        "alt": "NotNintendo 9"
+      }
+    ],
     "alt": "Not Nintendo",
     "url": "notnintendo.com",
     "route": "notnintendo",
@@ -70,6 +213,20 @@
   },
   "n5": {
     "src": "/n5.webp",
+    "images": [
+      {
+        "path": "/n5/n5-1.webp",
+        "alt": "N5 1"
+      },
+      {
+        "path": "/n5/n5-2.webp",
+        "alt": "N5 2"
+      },
+      {
+        "path": "/n5/n5-3.webp",
+        "alt": "N5 3"
+      }
+    ],
     "alt": "N5",
     "url": "n.style",
     "route": "n5",
@@ -81,6 +238,32 @@
   },
   "dreamland": {
     "src": "/dreamland.webp",
+    "images": [
+      {
+        "path": "/dreamland/dreamland-1.webp",
+        "alt": "Dreamland 1"
+      },
+      {
+        "path": "/dreamland/dreamland-2.webp",
+        "alt": "Dreamland 2"
+      },
+      {
+        "path": "/dreamland/dreamland-3.webp",
+        "alt": "Dreamland 3"
+      },
+      {
+        "path": "/dreamland/dreamland-4.webp",
+        "alt": "Dreamland 4"
+      },
+      {
+        "path": "/dreamland/dreamland-5.webp",
+        "alt": "Dreamland 5"
+      },
+      {
+        "path": "/dreamland/dreamland-6.webp",
+        "alt": "Dreamland 6"
+      }
+    ],
     "alt": "Dreamland",
     "url": "dreamland.id",
     "route": "dreamland",
@@ -90,23 +273,30 @@
       "Detailed 3D palace asset rendered in the browser from a Blender export"
     ]
   },
-  "mythdivision": {
-    "src": "/md.webp",
-    "alt": "Myth Division",
-    "url": "mythdivision.com",
-    "route": "mythdivision",
-    "description": "Myth Division was a project built for a client. Get on the project whitelist by posting on Twitter. Purchase a Myth Division Agent ID NFT to gain access to the Myth Division universe. Access the Apothecary & Armory to equip and consume items for Waifu Warriors NFTs. Access the comic book library to read about Myth Division Lore.",
-    "stack": "NodeJS | MongoDB | ReactJS | NextJS | Selenium | Ethereum | Solidity | Docker | HAProxy",
-    "tech": [
-      "Mechanism to verify Twitter posts with headless chrome to authorize NFT mints",
-      "Hosts NFT metadata and exposes API for 3rd party NFT marketplace to access it",
-      "Extensive API to handle game operations and database updates",
-      "Custom Web3 wallet signature based authentication",
-      "ERC721 & ERC1155 NFT standards"
-    ]
-  },
   "pepe": {
     "src": "/pepe.webp",
+    "images": [
+      {
+        "path": "/pepe/pepe-1.webp",
+        "alt": "Pepe 1"
+      },
+      {
+        "path": "/pepe/pepe-2.webp",
+        "alt": "Pepe 2"
+      },
+      {
+        "path": "/pepe/pepe-3.webp",
+        "alt": "Pepe 3"
+      },
+      {
+        "path": "/pepe/pepe-4.webp",
+        "alt": "Pepe 4"
+      },
+      {
+        "path": "/pepe/pepe-5.webp",
+        "alt": "Pepe 5"
+      }
+    ],
     "alt": "Pepe Liberation Army",
     "url": "https://opensea.io/collection/pepeliberationarmy-v2",
     "route": "pepe",
@@ -119,6 +309,28 @@
   },
   "aliens": {
     "src": "/alien.webp",
+    "images": [
+      {
+        "path": "/aliens/alien-1.webp",
+        "alt": "Alien 1"
+      },
+      {
+        "path": "/aliens/alien-2.webp",
+        "alt": "Alien 2"
+      },
+      {
+        "path": "/aliens/alien-3.webp",
+        "alt": "Alien 3"
+      },
+      {
+        "path": "/aliens/alien-4.webp",
+        "alt": "Alien 4"
+      },
+      {
+        "path": "/aliens/alien-5.webp",
+        "alt": "Alien 5"
+      }
+    ],
     "alt": "Autistic Alien Invaders",
     "url": "https://opensea.io/collection/autistic-alien-invaders",
     "route": "aliens",
@@ -130,6 +342,32 @@
   },
   "firstthread": {
     "src": "/firstthread.webp",
+    "images": [
+      {
+        "path": "/firstthread/firstthread-1.webp",
+        "alt": "First Thread 1"
+      },
+      {
+        "path": "/firstthread/firstthread-2.webp",
+        "alt": "First Thread 2"
+      },
+      {
+        "path": "/firstthread/firstthread-3.webp",
+        "alt": "First Thread 3"
+      },
+      {
+        "path": "/firstthread/firstthread-4.webp",
+        "alt": "First Thread 4"
+      },
+      {
+        "path": "/firstthread/firstthread-5.webp",
+        "alt": "First Thread 5"
+      },
+      {
+        "path": "/firstthread/firstthread-6.webp",
+        "alt": "First Thread 6"
+      }
+    ],
     "alt": "First Thread",
     "url": "firstthread.shop",
     "route": "firstthread",
@@ -144,6 +382,32 @@
   },
   "eightiesbabies": {
     "src": "/eighties.webp",
+    "images": [
+      {
+        "path": "/eightiesbabies/80s-1.webp",
+        "alt": "80s 1"
+      },
+      {
+        "path": "/eightiesbabies/80s-2.webp",
+        "alt": "80s 2"
+      },
+      {
+        "path": "/eightiesbabies/80s-3.webp",
+        "alt": "80s 3"
+      },
+      {
+        "path": "/eightiesbabies/80s-4.webp",
+        "alt": "80s 4"
+      },
+      {
+        "path": "/eightiesbabies/80s-5.webp",
+        "alt": "80s 5"
+      },
+      {
+        "path": "/eightiesbabies/80s-6.webp",
+        "alt": "80s 6"
+      }
+    ],
     "alt": "Eighties Babies",
     "url": "https://opensea.io/collection/eighties-babies-v2",
     "route": "eightiesbabies",
@@ -155,6 +419,32 @@
   },
   "ganfish": {
     "src": "/gan.webp",
+    "images": [
+      {
+        "path": "/ganfish/fish-1.webp",
+        "alt": "Gan Fish 1"
+      },
+      {
+        "path": "/ganfish/fish-2.webp",
+        "alt": "Gan Fish 2"
+      },
+      {
+        "path": "/ganfish/fish-3.webp",
+        "alt": "Gan Fish 3"
+      },
+      {
+        "path": "/ganfish/fish-4.webp",
+        "alt": "Gan Fish 4"
+      },
+      {
+        "path": "/ganfish/fish-5.webp",
+        "alt": "Gan Fish 5"
+      },
+      {
+        "path": "/ganfish/fish-6.webp",
+        "alt": "Gan Fish 6"
+      }
+    ],
     "alt": "Gan Fish",
     "url": "",
     "route": "ganfish",
@@ -166,6 +456,24 @@
   },
   "nftgenerator": {
     "src": "/receipt.webp",
+    "images": [
+      {
+        "path": "/nftgenerator/omakasea-1.webp",
+        "alt": "Nft Generator 1"
+      },
+      {
+        "path": "/nftgenerator/omakasea-2.webp",
+        "alt": "Nft Generator 2"
+      },
+      {
+        "path": "/nftgenerator/omakasea-3.webp",
+        "alt": "Nft Generator 3"
+      },
+      {
+        "path": "/nftgenerator/omakasea-4.webp",
+        "alt": "Nft Generator 4"
+      }
+    ],
     "alt": "NFT Generator",
     "url": "omakasea.com",
     "route": "nftgenerator",
@@ -178,6 +486,16 @@
   },
   "cacti": {
     "src": "/cacti.webp",
+    "images": [
+      {
+        "path": "/cacti/cacti-1.webp",
+        "alt": "Cacti 1"
+      },
+      {
+        "path": "/cacti/cacti-2.webp",
+        "alt": "Cacti 2"
+      }
+    ],
     "url": "",
     "alt": "Cacti House",
     "route": "cacti",
@@ -189,6 +507,28 @@
   },
   "unicorn": {
     "src": "/unicorn.webp",
+    "images": [
+      {
+        "path": "/unicorn/unicorn-1.webp",
+        "alt": "Unicorn 1"
+      },
+      {
+        "path": "/unicorn/unicorn-2.webp",
+        "alt": "Unicorn 2"
+      },
+      {
+        "path": "/unicorn/unicorn-3.webp",
+        "alt": "Unicorn 3"
+      },
+      {
+        "path": "/unicorn/unicorn-4.webp",
+        "alt": "Unicorn 4"
+      },
+      {
+        "path": "/unicorn/unicorn-5.webp",
+        "alt": "Unicorn 5"
+      }
+    ],
     "alt": "Unicorn",
     "url": "",
     "route": "unicorn",

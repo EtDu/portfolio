@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 import projectMetadata from "../../app/projectMetadata.json"
 
 type ProjectNameKey = keyof typeof projectMetadata;
@@ -14,6 +15,15 @@ const ProjectPage = () => {
       <a href={projectMetadata[projectNameKey]?.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
         Website
       </a>
+      <ul className="flex flex-row">
+        {projectMetadata[projectNameKey]?.images.map((image, index) => (
+          <li key={index} className="flex-shrink-0 w-1/6 h-64"> {/* Adjust width as needed */}
+            <div className="relative w-full h-full">
+              <Image src={image.path} alt={image.alt} layout="fill" objectFit="contain" />
+            </div>
+          </li>
+        ))}
+      </ul>
       <section>
         <h2 className="text-xl font-semibold">Description</h2>
         <p>{projectMetadata[projectNameKey]?.description}</p>
