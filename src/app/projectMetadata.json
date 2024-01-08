@@ -41,7 +41,7 @@
     "description": "ETH Gobblers is a tamagotchi style game on the Ethereum blockchain that leverages NFTs. Buy a Gooey NFT on the open market. Feed Gooeys with ETH to keep them alive, otherwise their health decreases and they can die. Unlock GobDrops, special equippable and consumable NFTs to elevate your Gooey's stats.",
     "stack": "NodeJS | MongoDB | ReactJS | NextJS | Ethereum | Solidity | Docker | HAProxy",
     "tech": [
-      "Features a fault-tolerant web socket powered event listener that captures on-chain events and updates metadata in MongoDB",
+      "Fault-tolerant web socket powered event listener that captures on-chain events and updates metadata in MongoDB",
       "Hosts NFT metadata and exposes API for 3rd party NFT marketplace to access it",
       "Extensive API to handle game operations and database updates",
       "CDN to efficiently serve 500+ GB of GIF assets",

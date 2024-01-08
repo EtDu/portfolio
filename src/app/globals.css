@@ -30,17 +30,34 @@ body {
 }
 
 @font-face {
-  font-family: 'avenida';
-  src: url('/avenida.woff2') format('woff2');
+  font-family: 'fonseca';
+  src: url('/fonseca.woff') format('woff');
   font-weight: 400;
   /* Normal */
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'fonseca';
-  src: url('/fonseca.woff') format('woff');
+  font-family: 'roboto';
+  src: url('/roboto.woff2') format('woff2');
   font-weight: 400;
   /* Normal */
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto-bold';
+  src: url('/roboto-bold.woff2') format('woff2');
+  font-weight: 400;
+  /* Normal */
+  font-style: normal;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

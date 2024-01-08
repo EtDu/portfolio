@@ -15,8 +15,9 @@ const config: Config = {
           'gradient-border': 'linear-gradient(45deg, #f5d478, #050304, #718ecd, #bab2c6, #bc6d51, #f3d166, #5c4530, #4164af, #d8c8c5, #8ea7d4, #d4ab73, #547bc7, #164c9c, #9f748c, #b1bb92)'  
       },
       fontFamily: {
-        'avenida': ['avenida', 'sans-serif'],
-        'fonseca': ['fonseca', 'sans-serif']
+        'fonseca': ['fonseca', 'sans-serif'],
+        'roboto': ['roboto', 'sans-serif'],
+        'roboto-bold': ['roboto-bold', 'sans-serif']
       },
       colors: {
         'primary-1': '#f5d478',
