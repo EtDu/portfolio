@@ -35,6 +35,7 @@ const config: Config = {
         'primary-13': '#164c9c',
         'primary-14': '#9f748c',
         'primary-15': '#b1bb92',
+        'light-gray': '#E0E0E0',
         'grad': 'linear-gradient(45deg, #f5d478, #050304, #718ecd, #bab2c6, #bc6d51, #f3d166, #5c4530, #4164af, #d8c8c5, #8ea7d4, #d4ab73, #547bc7, #164c9c, #9f748c, #b1bb92)'
       }
     },

@@ -233,7 +233,7 @@
     "description": "N5 or 'N Five Star' is a light concept site created to showcase decks and material to potential investors.",
     "stack": "NextJS | ReactJS",
     "tech": [
-      "Nothing special going on here, just cool design"
+      "Password based authentication to unlock viewable content"
     ]
   },
   "dreamland": {

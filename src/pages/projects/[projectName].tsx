@@ -26,9 +26,9 @@ const ProjectPage = () => {
   return (
     <div className="flex flex-col bg-white h-full bg-opacity-80 p-8">
       <div className="flex items-center self-center mb-6">
-        <h1 className="text-6xl font-bold font-fonseca mr-4">{projectMetadata[projectNameKey]?.alt}</h1>
+        <h1 className="text-5xl font-bold font-fonseca mr-4 text-center">{projectMetadata[projectNameKey]?.alt}</h1>
         {projectMetadata[projectNameKey]?.url !== "" ? <a href={projectMetadata[projectNameKey]?.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-          <div className="w-6 h-6 relative">
+          <div className="w-6 h-6 relative z-5">
             <Image src={"/arrow.png"} alt="website" layout="fill" objectFit="contain" />
           </div>
         </a> : <></>}
@@ -44,7 +44,7 @@ const ProjectPage = () => {
       </ul>
 
       {selectedImage && (
-        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={() => setSelectedImage(null)}>
+        <div className="z-20 fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={() => setSelectedImage(null)}>
           <div className="relative w-3/4 h-3/4">
             <Image src={selectedImage.path} alt={selectedImage.alt} layout="fill" objectFit="contain" />
           </div>
