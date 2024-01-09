@@ -88,7 +88,7 @@
     ]
   },
   "love": {
-    "src": "/love.webp",
+    "src": "/love/love.webp",
     "images": [
       {
         "path": "/love/love-1.webp",
@@ -124,7 +124,7 @@
     ]
   },
   "goopen": {
-    "src": "/goopen.webp",
+    "src": "/goopen/goopen.webp",
     "images": [
       {
         "path": "/goopen/goopen-1.webp",
@@ -162,7 +162,7 @@
     ]
   },
   "notnintendo": {
-    "src": "/notnintendo.webp",
+    "src": "/notnintendo/notnintendo.webp",
     "images": [
       {
         "path": "/notnintendo/poke-1.webp",
@@ -212,7 +212,7 @@
     ]
   },
   "n5": {
-    "src": "/n5.webp",
+    "src": "/n5/n5.webp",
     "images": [
       {
         "path": "/n5/n5-1.webp",
@@ -237,7 +237,7 @@
     ]
   },
   "dreamland": {
-    "src": "/dreamland.webp",
+    "src": "/dreamland/dreamland.webp",
     "images": [
       {
         "path": "/dreamland/dreamland-1.webp",
@@ -274,7 +274,7 @@
     ]
   },
   "pepe": {
-    "src": "/pepe.webp",
+    "src": "/pepe/pepe.webp",
     "images": [
       {
         "path": "/pepe/pepe-1.webp",
@@ -308,7 +308,7 @@
     ]
   },
   "aliens": {
-    "src": "/alien.webp",
+    "src": "/aliens/alien.webp",
     "images": [
       {
         "path": "/aliens/alien-1.webp",
@@ -341,7 +341,7 @@
     ]
   },
   "firstthread": {
-    "src": "/firstthread.webp",
+    "src": "/firstthread/firstthread.webp",
     "images": [
       {
         "path": "/firstthread/firstthread-1.webp",
@@ -381,7 +381,7 @@
     ]
   },
   "eightiesbabies": {
-    "src": "/eighties.webp",
+    "src": "/eightiesbabies/eighties.webp",
     "images": [
       {
         "path": "/eightiesbabies/80s-1.webp",
@@ -418,7 +418,7 @@
     ]
   },
   "ganfish": {
-    "src": "/gan.webp",
+    "src": "/ganfish/gan.webp",
     "images": [
       {
         "path": "/ganfish/fish-1.webp",
@@ -455,7 +455,7 @@
     ]
   },
   "nftgenerator": {
-    "src": "/receipt.webp",
+    "src": "/nftgenerator/receipt.webp",
     "images": [
       {
         "path": "/nftgenerator/omakasea-1.webp",
@@ -485,7 +485,7 @@
     ]
   },
   "cacti": {
-    "src": "/cacti.webp",
+    "src": "/cacti/cacti.webp",
     "images": [
       {
         "path": "/cacti/cacti-1.webp",
@@ -506,7 +506,7 @@
     ]
   },
   "unicorn": {
-    "src": "/unicorn.webp",
+    "src": "/unicorn/unicorn.webp",
     "images": [
       {
         "path": "/unicorn/unicorn-1.webp",
