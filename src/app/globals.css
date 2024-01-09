@@ -31,7 +31,7 @@ body {
 
 @font-face {
   font-family: 'fonseca';
-  src: url('/fonseca.woff') format('woff');
+  src: url('/fonts/fonseca.woff') format('woff');
   font-weight: 400;
   /* Normal */
   font-style: normal;
@@ -39,7 +39,7 @@ body {
 
 @font-face {
   font-family: 'roboto';
-  src: url('/roboto.woff2') format('woff2');
+  src: url('/fonts/roboto.woff2') format('woff2');
   font-weight: 400;
   /* Normal */
   font-style: normal;
@@ -47,7 +47,7 @@ body {
 
 @font-face {
   font-family: 'roboto-bold';
-  src: url('/roboto-bold.woff2') format('woff2');
+  src: url('/fonts/roboto-bold.woff2') format('woff2');
   font-weight: 400;
   /* Normal */
   font-style: normal;
