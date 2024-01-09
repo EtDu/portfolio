@@ -58,7 +58,7 @@ const ProjectPage = () => {
 
       {
         selectedImage && (
-          <div className="z-20 fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={() => setSelectedImage(null)}>
+          <div className="z-50 fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={() => setSelectedImage(null)}>
             <div className="relative w-3/4 h-3/4">
               <Image src={selectedImage.path} alt={selectedImage.alt} layout="fill" objectFit="contain" />
             </div>
