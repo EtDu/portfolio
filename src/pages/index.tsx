@@ -10,7 +10,7 @@ const Index = () => {
         <Image src="/compass.png" alt="Compass" layout="fill" objectFit="contain" className="opacity-10" />
       </div>
       <div className="flex flex-col w-full z-20">
-        <h1 className="text-3xl lg:text-5xl font-fonseca text-center text-primary-2 font-bold">I'm Etienne</h1>
+        <h1 className="text-3xl lg:text-5xl font-fonseca text-center text-primary-2 font-bold">I&apos;m Etienne</h1>
         <h2 className="text-2xl lg:text-3xl font-fonseca text-center text-primary-2 font-bold py-5">Welcome to my portfolio</h2>
         <div className="px-20 xl:px-40 w-full relative overflow-visible">
           <div className="z-20">
@@ -18,11 +18,11 @@ const Index = () => {
               The most adept in their fields make their work seem deceptively simple.
             </p>
             <p className="text-lg font-fonseca text-center text-primary-3 font-bold py-5">
-              In my seven years as a Full Stack Software Engineer, I've learned that the secret
-              sauce to successful project launches isn't just about writing good code.
+              In my seven years as a Full Stack Software Engineer, I&apos;ve learned that the secret
+              sauce to successful project launches isn&apos;t just about writing good code.
             </p>
             <p className="text-lg font-fonseca text-center text-primary-4 font-bold py-5">
-              It's about creating a story – a narrative where every line of code intertwines with user experience
+              It&apos;s about creating a story – a narrative where every line of code intertwines with user experience
               and contributes to the larger tale of empowering THE PEOPLE with technology to become an extension of our
               very existence, enhancing our social networks, increasing our opportunities and elevating our serendipity.
             </p>
@@ -31,7 +31,7 @@ const Index = () => {
               to produce results that exist beyond the bounds of everyday perception.
             </p>
             <p className="text-lg font-fonseca text-center text-primary-11 font-bold py-5">
-              Please have a look around my website. Don't hesitate to reach out if you'd like to leverage my skills.
+              Please have a look around my website. Don&apos;t hesitate to reach out if you&apos;d like to leverage my skills.
             </p>
           </div>
         </div>

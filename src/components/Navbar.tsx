@@ -4,19 +4,19 @@ import Image from 'next/image';
 
 const Navbar = () => {
   const [isNavVisible, setNavVisible] = useState(false);
-  const navRef = useRef(null);
-  const menuRef = useRef(null);
+  const navRef = useRef<HTMLElement | null>(null);
+  const menuRef = useRef<HTMLButtonElement | null>(null);
 
   const toggleNav = () => {
     setNavVisible(!isNavVisible);
   }
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (navRef.current && !navRef.current.contains(event.target) && menuRef.current && menuRef.current.contains(event.target)) {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (navRef.current && !navRef.current.contains(event.target as Node) && menuRef.current && menuRef.current.contains(event.target as Node)) {
         return;
       }
-      if (navRef.current && !navRef.current.contains(event.target)) {
+      if (navRef.current && !navRef.current.contains(event.target as Node)) {
         setTimeout(() => setNavVisible(false), 0);
       }
     }
