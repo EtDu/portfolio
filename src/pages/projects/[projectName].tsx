@@ -41,7 +41,7 @@ const ProjectPage = () => {
       </div>
       <ul ref={scrollRef} className="h-[300px] flex space-x-4 overflow-x-auto hide-scrollbar mb-6 shadow-xl border-2 ">
         {!imagesLoaded &&
-          <div className="loader mx-auto self-center">
+          <div className="z-20 loader mx-auto self-center">
             <Image
               src={"/loading.gif"}
               alt="loading"
