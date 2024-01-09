@@ -14,7 +14,7 @@ const Index = () => {
       </div>
       <div className="flex flex-col w-full z-20">
         <h1 className="text-3xl lg:text-5xl font-fonseca text-center text-primary-2 font-bold">I&apos;m Etienne</h1>
-        <h2 className="text-2xl lg:text-3xl font-fonseca text-center text-primary-2 font-bold py-5">Welcome to my portfolio!</h2>
+        <h2 className="text-2xl lg:text-3xl font-fonseca text-center text-primary-2 font-bold py-5">Welcome to my portfolio</h2>
         <div className="px-20 xl:px-40 w-full relative overflow-visible">
           <div className="z-20">
             <p className="text-lg font-fonseca text-center text-primary-15 font-bold py-5">
