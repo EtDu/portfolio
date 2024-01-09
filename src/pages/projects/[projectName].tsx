@@ -13,6 +13,7 @@ const ProjectPage = () => {
   const projectNameKey = projectName as ProjectNameKey;
   const scrollRef = useRef<HTMLUListElement>(null);
   const [selectedImage, setSelectedImage] = useState<ImageType>(null);
+  const [imagesLoaded, setImagesLoaded] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -39,6 +40,16 @@ const ProjectPage = () => {
         </a> : <></>}
       </div>
       <ul ref={scrollRef} className="h-[300px] flex space-x-4 overflow-x-auto hide-scrollbar mb-6 shadow-xl border-2 ">
+        {!imagesLoaded &&
+          <div className="loader mx-auto self-center">
+            <Image
+              src={"/loading.gif"}
+              alt="loading"
+              width={100}
+              height={100} />
+          </div>
+        }
+
         {projectMetadata[projectNameKey]?.images.map((image, index) => (
           <li key={index} className="flex-none w-72 h-72 flex items-center justify-center">
             <button onClick={() => setSelectedImage(image)} className="">
@@ -48,6 +59,7 @@ const ProjectPage = () => {
                 width={300}
                 height={300}
                 layout="responsive"
+                onLoad={() => setImagesLoaded(true)}
               />
 
             </button>
