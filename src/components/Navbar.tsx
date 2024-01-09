@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 w-full h-16 bg-white lg:hidden"></div>
+      <div className="fixed top-0 left-0 w-full h-12 lg:hidden"></div>
       <button ref={menuRef} onClick={toggleNav} className="fixed top-0 left-0 z-40 p-4 mt-4 ml-4 lg:hidden">
         <Image src={"/menu.png"} alt={"menu"} layout="fill" objectFit="contain" />
       </button>
@@ -57,8 +57,8 @@ const Navbar = () => {
         </div>
         <div className="flex flex-col pt-20 items-center">
           <div className="flex flex-col space-y-8">
-            <Link href="/"><span className="cursor-pointer font-fonseca text-3xl text-primary-3 hover:underline">Home</span></Link>
-            <Link href="/projects"><span className="cursor-pointer font-fonseca text-3xl text-primary-5 hover:underline">Projects</span></Link>
+            <Link href="/"><span onClick={toggleNav} className="cursor-pointer font-fonseca text-3xl text-primary-3 hover:underline">Home</span></Link>
+            <Link href="/projects"><span onClick={toggleNav} className="cursor-pointer font-fonseca text-3xl text-primary-5 hover:underline">Projects</span></Link>
           </div>
         </div>
 

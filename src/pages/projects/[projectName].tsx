@@ -24,7 +24,7 @@ const ProjectPage = () => {
   }, []);
 
   return (
-    <div className="bg-white h-full bg-opacity-80 p-8 overflow-y-auto">
+    <div className="h-full bg-opacity-80 px-8 pb-16 overflow-y-auto">
       <div className="flex items-center self-center justify-center mb-6">
         <h1 className="text-3xl lg:text-5xl font-bold font-fonseca text-center mr-6">{projectMetadata[projectNameKey]?.alt}</h1>
         {projectMetadata[projectNameKey]?.url !== "" ? <a href={projectMetadata[projectNameKey]?.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">

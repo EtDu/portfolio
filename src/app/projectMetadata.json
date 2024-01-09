@@ -75,7 +75,7 @@
       }
     ],
     "alt": "Megalith TV",
-    "url": "mglth.tv",
+    "url": "https://mglth.tv/",
     "route": "megalith",
     "description": "Megalith is a decentralized streaming application. Purchase an NFT which corresponds to a fixed amount of minutes. With those minutes, upload video content to a collaborative 2 week long stream that runs on a loop. Megalith is the embodiment of censorship resistance and distributed entertainment.",
     "stack": "NodeJS | MongoDB | ReactJS | NextJS | Ethereum | Solidity | IPFS | FFMPEG | Docker | HAProxy",
@@ -112,7 +112,7 @@
       }
     ],
     "alt": "Love",
-    "url": "love.game",
+    "url": "https://love.game/",
     "route": "love",
     "description": "love.game is above all, an artistic expression of nostalgia for the people of the internet. Practically speaking, it's an ERC-20 token on the Ethereum blockchain. A certain amount of $LOVE tokens were claimable for free on launch day. Claim tokens then pair them with ETH in a Uniswap V2 liquidity pool to receive LP tokens and deposit those into farms to gain interest. Features HEARTBREAK, a real time game of chance and skill: Deposit $LOVE tokens, play a desired amount then press the button before the heart breaks to win!",
     "stack": "NextJS | ReactJS | MongoDB | Ethereum | Solidity | PostgreSQL | Redis",
@@ -152,7 +152,7 @@
       }
     ],
     "alt": "Goopen Editions",
-    "url": "goopen.ethgobblers.com",
+    "url": "https://goopen.ethgobblers.com/",
     "route": "goopen",
     "description": "Goopen Editions was created to honor talented artists within the Omakasea & ETH Gobblers community. Create a profile, upload art, then vote on all submitted art by swiping right or left. Art with the highest amount of votes is featured on the front page and mintable as an NFT. All proceeds go directly to the artist.",
     "stack": "NodeJS | ReactJS | MongoDB | Ethereum | Solidity",
@@ -202,7 +202,7 @@
       }
     ],
     "alt": "Not Nintendo",
-    "url": "notnintendo.com",
+    "url": "https://notnintendo.com/",
     "route": "notnintendo",
     "description": "Not Nintendo is, well, not Nintendo by any means. There isn't an NFT project called PokeGAN either, where the entire PokeDEX was used to train a Generative Adversarial Network (GAN) to produce novel Pokemon NFTs.",
     "stack": "NextJS | ReactJS | RPG Maker | Ethereum | Solidity",
@@ -228,7 +228,7 @@
       }
     ],
     "alt": "N5",
-    "url": "n.style",
+    "url": "https://n.style/",
     "route": "n5",
     "description": "N5 or 'N Five Star' is a light concept site created to showcase decks and material to potential investors.",
     "stack": "NextJS | ReactJS",
@@ -265,7 +265,7 @@
       }
     ],
     "alt": "Dreamland",
-    "url": "dreamland.id",
+    "url": "",
     "route": "dreamland",
     "description": "Dreamland is the pitch/concept for the construction of a palace on beachfront property in Bali.",
     "stack": "NextJS | ReactJS | ThreeJS",
@@ -369,7 +369,7 @@
       }
     ],
     "alt": "First Thread",
-    "url": "firstthread.shop",
+    "url": "https://firstthread.shop/",
     "route": "firstthread",
     "description": "NFT based e-commerce platform. Identical to a traditional e-commerce experience with a twist. At checkout, purchase the item as an NFT. Trade it on the open market or claim the physical item and have it shipped to your door.",
     "stack": "NodeJS | MongoDB | ReactJS | NextJS | Ethereum | Solidity | Docker | HAProxy",
@@ -446,7 +446,7 @@
       }
     ],
     "alt": "Gan Fish",
-    "url": "",
+    "url": "https://omakasea.com/fish/",
     "route": "ganfish",
     "description": "Our amazing artist Dudette hand drew a collection of fish every day for 150 days. We trained the fish on an AI model to produce new species of fish never seen before. Then we sold them as NFTs on the Chia blockchain.",
     "stack": "NextJS | Chia",
@@ -475,7 +475,7 @@
       }
     ],
     "alt": "NFT Generator",
-    "url": "omakasea.com",
+    "url": "https://omakasea.com/",
     "route": "nftgenerator",
     "description": "The very first project of Omakasea. Bring your layered art and produce an entire generative NFT collection, deployed to the blockchain and hosted on IPFS.",
     "stack": "NodeJS | MongoDB | ReactJS | IPFS | Ethereum | Solidity | Docker | HAProxy",
@@ -496,7 +496,7 @@
         "alt": "Cacti 2"
       }
     ],
-    "url": "",
+    "url": "https://omakasea.com/cacti/",
     "alt": "Cacti House",
     "route": "cacti",
     "description": "Another collection with artistic direction from Dudette. Cacti House was built to showcase the possibilities of NFTs on the Chia Blockchain.",
@@ -530,7 +530,7 @@
       }
     ],
     "alt": "Unicorn",
-    "url": "",
+    "url": "https://omakasea.com/unicorn/",
     "route": "unicorn",
     "description": "Are you the Unicorn? Innovative NFT concept where anyone can pay to steal the Unicorn NFT from someone else and tweet about it, directly from the interface. The price algorithmically increases everytime the Unicorn is stolen.",
     "stack": "ReactJS | Ethereum | Solidity",

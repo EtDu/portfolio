@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Index = () => {
 
   return (
-    <div className="flex h-full bg-white bg-opacity-80 pt-20 overflow-auto relative">
+    <div className="flex h-full bg-opacity-80 overflow-auto py-8 relative">
       <div className="w-full h-full absolute inset-0 flex overflow-hidden transform origin-center rotate-[-45deg] z-10">
         <Image src="/compass.png" alt="Compass" layout="fill" objectFit="contain" className="opacity-10" />
       </div>
