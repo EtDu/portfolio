@@ -1,23 +1,40 @@
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
-import { useMediaQuery } from 'react-responsive';
 
 const Navbar = () => {
-  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   const [isNavVisible, setNavVisible] = useState(false);
+  const navRef = useRef(null);
+  const menuRef = useRef(null);
 
   const toggleNav = () => {
     setNavVisible(!isNavVisible);
   }
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target) && menuRef.current && menuRef.current.contains(event.target)) {
+        return;
+      }
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setTimeout(() => setNavVisible(false), 0);
+      }
+    }
+
+    document.addEventListener("mouseup", handleClickOutside);
+    return () => {
+      document.removeEventListener("mouseup", handleClickOutside);
+    };
+  }, [navRef, menuRef]);
+
   return (
     <>
-      <button onClick={toggleNav} className="fixed top-0 left-0 z-20 p-4 mt-4 ml-4 lg:hidden">
+      <div className="fixed top-0 left-0 w-full h-16 bg-white lg:hidden"></div>
+      <button ref={menuRef} onClick={toggleNav} className="fixed top-0 left-0 z-40 p-4 mt-4 ml-4 lg:hidden">
         <Image src={"/menu.png"} alt={"menu"} layout="fill" objectFit="contain" />
       </button>
-      <nav className={`z-10 flex flex-col w-96 h-full transition-transform duration-200 ease-in-out bg-light-gray ${isNavVisible ? 'translate-x-0 fixed' : '-translate-x-full fixed'} lg:translate-x-0 lg:static`}>
-        <div className="flex flex-col items-center pt-4">
+      <nav ref={navRef} className={`z-30 flex flex-col w-96 h-full transition-transform duration-200 ease-in-out bg-light-gray ${isNavVisible ? 'translate-x-0 fixed' : '-translate-x-full fixed'} lg:translate-x-0 lg:static`}>
+        <div className="flex flex-col items-center pt-16">
           <Image className="mb-5" src="/me.png" alt="Me" width={150} height={150} />
           <div className="flex space-x-4">
 

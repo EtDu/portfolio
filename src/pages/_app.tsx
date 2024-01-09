@@ -16,24 +16,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   )
 }
 
-// const [rotation, setRotation] = useState(0);
-
-// const handleMouseMove = useCallback((event) => {
-//   const { clientX, clientY } = event;
-//   const centerX = window.innerWidth / 2;
-//   const centerY = window.innerHeight / 2;
-//   const radians = Math.atan2(clientY - centerY, clientX - centerX);
-//   const rotation = radians * (180 / Math.PI);
-//   setRotation(rotation);
-// }, []);
-
-// useEffect(() => {
-//   window.addEventListener('mousemove', handleMouseMove);
-
-//   return () => {
-//     window.removeEventListener('mousemove', handleMouseMove);
-//   };
-// }, [handleMouseMove]);
-
-
 export default MyApp
