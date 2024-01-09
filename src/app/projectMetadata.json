@@ -334,7 +334,7 @@
     "alt": "Autistic Alien Invaders",
     "url": "https://opensea.io/collection/autistic-alien-invaders",
     "route": "aliens",
-    "description": "Autistic Alien Invaders is a basic NFT project created to bring awareness to Autism",
+    "description": "Autistic Alien Invaders is a basic NFT project created to bring awareness to Autism.",
     "stack": "Ethereum | Solidity",
     "tech": [
       "ERC721 NFT standard"
