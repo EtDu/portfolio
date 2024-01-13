@@ -25,7 +25,7 @@ const ProjectPage = () => {
   }, []);
 
   return (
-    <div className="h-full bg-opacity-80 px-8 pb-16 overflow-y-auto">
+    <div className="h-full bg-opacity-80 px-8 pt-20 pb-40 overflow-y-auto">
       <Head>
         <title>{projectName}</title>
       </Head>
@@ -66,6 +66,7 @@ const ProjectPage = () => {
           </div>
         )
       }
+
       <div className='w-full bg-primary-10 p-4 bg-opacity-20 shadow-xl'>
         <div className='w-full xl:w-2/3'>
           <section className='mb-6'>

@@ -7,10 +7,10 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="flex h-screen overflow-hidden bg-opacity-80">
+    <div className="flex h-screen bg-white bg-opacity-80">
       <Navbar
       />
-      <div className="w-full overflow-auto overflow-y-auto pt-20 lg:pt-12 lg:pt-0 bg-white">
+      <div className="w-full h-full overflow-x-hidden">
         {children}
       </div>
     </div>

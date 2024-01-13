@@ -29,10 +29,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 w-full h-12 lg:hidden"></div>
-      <button ref={menuRef} onClick={toggleNav} className="fixed top-0 left-0 z-40 p-4 mt-4 ml-4 lg:hidden">
-        <Image src={"/menu.png"} alt={"menu"} layout="fill" objectFit="contain" />
-      </button>
+      <div className="fixed z-40 top-1/2h left-0 w-[60px] h-[60px] bg-light-gray lg:hidden">
+        <button ref={menuRef} onClick={toggleNav} className="z-40 mt-4 ml-4 lg:hidden">
+          <Image src={"/menu.png"} alt={"menu"} width={30} height={30} />
+        </button>
+      </div>
       <nav ref={navRef} className={`z-30 flex flex-col w-96 h-full pb-8 transition-transform duration-200 ease-in-out bg-light-gray ${isNavVisible ? 'translate-x-0 fixed' : '-translate-x-full fixed'} lg:translate-x-0 lg:static`}>
         <div className="flex flex-col items-center pt-16">
           <Image className="mb-5" src="/me.png" alt="Me" width={150} height={150} />
