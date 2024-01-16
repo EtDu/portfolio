@@ -60,7 +60,7 @@ const ProjectPage = () => {
       {
         selectedImage && (
           <div className="z-50 fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50" onClick={() => setSelectedImage(null)}>
-            <div className="relative w-3/4 h-3/4">
+            <div className="relative w-5/6 h-5/6">
               <Image src={selectedImage.path} alt={selectedImage.alt} layout="fill" objectFit="contain" />
             </div>
           </div>
@@ -77,7 +77,7 @@ const ProjectPage = () => {
             <h2 className="text-xl font-semibold font-roboto-bold">Tech Stack</h2>
             <p className="font-roboto">{projectMetadata[projectNameKey]?.stack}</p>
           </section>
-          <section>
+          <section className='mb-6'>
             <h2 className="text-xl font-semibold font-roboto-bold">Features</h2>
             <ul>
               {projectMetadata[projectNameKey]?.tech.map((feature, index) => (
@@ -85,8 +85,29 @@ const ProjectPage = () => {
               ))}
             </ul>
           </section>
-
         </div>
+        {projectMetadata[projectNameKey]?.architecture.length > 0 &&
+          <div>
+            <h2 className="text-xl font-semibold font-roboto-bold mb-2">Architecture</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 lg:gap-8">
+              {projectMetadata[projectNameKey]?.architecture.map((image, index) => (
+                <div key={index} className="w-full h-full flex flex-col justify-between mx-auto">
+                  <div className='w-full flex justify-center items-center'>
+                    <button onClick={() => setSelectedImage(image)} className="">
+                      <Image
+                        src={image.path}
+                        alt={image.alt}
+                        width={300}
+                        height={300}
+                        layout="responsive"
+                      />
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        }
       </div>
     </div >
   );

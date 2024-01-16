@@ -35,6 +35,12 @@
         "alt": "Screenshot 3"
       }
     ],
+    "architecture": [
+      {
+        "path": "/ethgobblers/architecture.webp",
+        "alt": "Architecture"
+      }
+    ],
     "alt": "Eth Gobblers",
     "url": "https://ethgobblers.com/",
     "route": "ethgobblers",
@@ -74,6 +80,7 @@
         "alt": "Megalith 5"
       }
     ],
+    "architecture": [],
     "alt": "Megalith TV",
     "url": "https://mglth.tv/",
     "route": "megalith",
@@ -111,6 +118,7 @@
         "alt": "Love 5"
       }
     ],
+    "architecture": [],
     "alt": "Love",
     "url": "https://love.game/",
     "route": "love",
@@ -151,6 +159,7 @@
         "alt": "Goopen 6"
       }
     ],
+    "architecture": [],
     "alt": "Goopen Editions",
     "url": "https://goopen.ethgobblers.com/",
     "route": "goopen",
@@ -201,6 +210,7 @@
         "alt": "NotNintendo 9"
       }
     ],
+    "architecture": [],
     "alt": "Not Nintendo",
     "url": "https://notnintendo.com/",
     "route": "notnintendo",
@@ -227,6 +237,7 @@
         "alt": "N5 3"
       }
     ],
+    "architecture": [],
     "alt": "N5",
     "url": "https://n.style/",
     "route": "n5",
@@ -264,6 +275,7 @@
         "alt": "Dreamland 6"
       }
     ],
+    "architecture": [],
     "alt": "Dreamland",
     "url": "",
     "route": "dreamland",
@@ -297,6 +309,7 @@
         "alt": "Pepe 5"
       }
     ],
+    "architecture": [],
     "alt": "Pepe Liberation Army",
     "url": "https://opensea.io/collection/pepeliberationarmy-v2",
     "route": "pepe",
@@ -331,6 +344,7 @@
         "alt": "Alien 5"
       }
     ],
+    "architecture": [],
     "alt": "Autistic Alien Invaders",
     "url": "https://opensea.io/collection/autistic-alien-invaders",
     "route": "aliens",
@@ -368,6 +382,7 @@
         "alt": "First Thread 6"
       }
     ],
+    "architecture": [],
     "alt": "First Thread",
     "url": "https://firstthread.shop/",
     "route": "firstthread",
@@ -408,6 +423,7 @@
         "alt": "80s 6"
       }
     ],
+    "architecture": [],
     "alt": "Eighties Babies",
     "url": "https://opensea.io/collection/eighties-babies-v2",
     "route": "eightiesbabies",
@@ -445,6 +461,7 @@
         "alt": "Gan Fish 6"
       }
     ],
+    "architecture": [],
     "alt": "Gan Fish",
     "url": "https://omakasea.com/fish/",
     "route": "ganfish",
@@ -474,6 +491,7 @@
         "alt": "Nft Generator 4"
       }
     ],
+    "architecture": [],
     "alt": "NFT Generator",
     "url": "https://omakasea.com/",
     "route": "nftgenerator",
@@ -496,6 +514,7 @@
         "alt": "Cacti 2"
       }
     ],
+    "architecture": [],
     "url": "https://omakasea.com/cacti/",
     "alt": "Cacti House",
     "route": "cacti",
@@ -529,6 +548,7 @@
         "alt": "Unicorn 5"
       }
     ],
+    "architecture": [],
     "alt": "Unicorn",
     "url": "https://omakasea.com/unicorn/",
     "route": "unicorn",
