@@ -89,7 +89,7 @@ const ProjectPage = () => {
         {projectMetadata[projectNameKey]?.architecture.length > 0 &&
           <div>
             <h2 className="text-xl font-semibold font-roboto-bold mb-2">Architecture</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 lg:gap-8">
+            <div className="grid grid-cols-1 gap-16 lg:gap-8">
               {projectMetadata[projectNameKey]?.architecture.map((image, index) => (
                 <div key={index} className="w-full h-full flex flex-col justify-between mx-auto">
                   <div className='w-full flex justify-center items-center'>

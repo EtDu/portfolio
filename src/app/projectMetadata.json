@@ -80,7 +80,12 @@
         "alt": "Megalith 5"
       }
     ],
-    "architecture": [],
+    "architecture": [
+      {
+        "path": "/mglth/architecture.webp",
+        "alt": "Architecture"
+      }
+    ],
     "alt": "Megalith TV",
     "url": "https://mglth.tv/",
     "route": "megalith",
@@ -91,6 +96,7 @@
       "RTMP server video streaming",
       "Full video upload/transcode/broadcast pipeline",
       "Broadcast stream directly from OpenSea",
+      "Fault tolerant architecture with innate auto reset capabilities",
       "ERC721 NFT standard"
     ]
   },
